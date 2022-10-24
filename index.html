@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/external-icongeek26-glyph-icongeek26/344/external-shark-sea-life-icongeek26-glyph-icongeek26.png">
+    <meta
+      name="description"
+      content="QR Shark helps you to generate QR Code for free. We make it easy to create a QR Code for free!"
+    />
+    <meta
+      name="keywords"
+      content="qr code, qr code generator link, qr code generator for free, qr code generator for free, create qr code, qr code generator, qr code generator free no sign up, create qrcodes, make a qr code, online qr code, qr code generator website"
+    />
+    <script src="https://kit.fontawesome.com/93554a374d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/app.css">
+    <title>Qrcode Shark</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <h1 id="brand-name"<a href="index.html">QR Shark <span> </a></h1>
+            <img id="logo" src="https://img.icons8.com/external-icongeek26-glyph-icongeek26/344/external-shark-sea-life-icongeek26-glyph-icongeek26.png" alt="qr code generator free">
+        </div>
+        <div class="main">
+            <div class="qr-info">
+                <h1>Your free QR Code is just a click away <i class="fa-solid fa-qrcode"></i></span></h1>
+                <p>This easy to use tool let's you easily generate high resolution, scannable and professional quality QR codes.</p>
+                <p>Simply input any URL below to generate a QR Code and download the image
+                </p>
+                <form id="generate-form">
+                    <input type="url" name="" id="url-input" placeholder="Enter or paste website here">
+                    <select name="select-size" id="size-select">
+                        <option value=""> Select Size</option>
+                        <option value="100"> 100 x 100</option>
+                        <option value="200"> 200 x 200 </option>
+                        <option value="300">300 x 300</option>
+                        <option value="400">400 x 400</option>
+                   
+                    </select><br>
+                    <button id="submit-btn" type="submit">Generate QR Code</button>
+            </div>
+               
+            <div id="generated">
+                <i class="fa-solid fa-spinner" id="spinner"></i>
+                <div id="qrcode"></div>
+            </div>
+        </div>
+    </div>
+</form>
+<div class="footer">
+    <p class="designed" >&#169 Designed & Built by Ade</p>
+</div>
+<script src="/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
