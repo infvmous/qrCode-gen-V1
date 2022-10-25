@@ -65,8 +65,9 @@ input[type="text"] {
     padding: 15px;
     outline: none;
     border: 1px solid rgb(161, 161, 161);
-    margin-top: 10px;
+    margin: 20px 0;
     border-radius: 4px;
+    font-size: large;
 }
 
 @media (max-width: 600px){
