@@ -7,7 +7,8 @@
 body{
     font-family: 'Oswald', sans-serif;
     text-align: center;
-    overflow-y: auto;
+    overflow: hidden;
+    font-size: 16px;
 }
 
 .nav{
@@ -39,27 +40,30 @@ span{
     color: #171717;
 }
 
-
+input[type="text"] {
+    font-size: inherit;
+  }
 
 #url-input{
     display: block;
     margin: 0 auto;
     width: 40%;
-    padding: 10px;
+    padding: 15px;
     outline: none;
     border: 1px solid rgb(161, 161, 161);
-    
+    border-radius: 4px;
 }
 
 @media (max-width: 600px){
     #url-input{
         width: 80%;
+        padding: 15px;
     }
 }
 
 #size-select{
     width: 40%;
-    padding: 10px;
+    padding: 15px;
     outline: none;
     border: 1px solid rgb(161, 161, 161);
     margin-top: 10px;
@@ -69,6 +73,7 @@ span{
 @media (max-width: 600px){
     #size-select{
         width: 80%;
+        padding: 15px;
     }
 }
 
