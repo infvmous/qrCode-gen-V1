@@ -77,6 +77,13 @@ input[type="text"] {
     }
 }
 
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    select,
+    textarea,
+    input {
+      font-size: 16px;
+    }
+  }
 
  #submit-btn{
     width: 40%;
