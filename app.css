@@ -8,7 +8,6 @@ body{
     font-family: 'Oswald', sans-serif;
     text-align: center;
     overflow: hidden;
-    font-size: 16px;
 }
 
 .nav{
@@ -63,7 +62,7 @@ input[type="text"] {
 
 #size-select{
     width: 40%;
-   
+    padding: 15px;
     outline: none;
     border: 1px solid rgb(161, 161, 161);
     margin-top: 10px;
@@ -73,26 +72,10 @@ input[type="text"] {
 @media (max-width: 600px){
     #size-select{
         width: 80%;
-        padding: 15px;
+        padding: 10px;
     }
 }
 
-#options{
-    padding: 15px;
-    width: 40%;
-    outline: none;
-    border: 1px solid rgb(161, 161, 161);
-    margin-top: 10px;
-    border-radius: 4px;
-
-}
-
-@media (max-width: 600px){
-    #options{
-        width: 80%;
-        padding: 15px;
-    }
-}
 
  #submit-btn{
     width: 40%;
