@@ -77,7 +77,7 @@ input[type="text"] {
     }
 }
 
-option{
+#options{
     padding: 15px;
     width: 40%;
     outline: none;
@@ -88,7 +88,7 @@ option{
 }
 
 @media (max-width: 600px){
-    option{
+    #options{
         width: 80%;
         padding: 15px;
     }
